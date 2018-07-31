@@ -4,3 +4,10 @@ version = "0.1.0"
 authors = ["Jannik Keye <jannik.keye@gmail.com>"]
 
 [dependencies]
+example_crate = { path = "./example_crate" }
+rand = "0.5"
+
+[workspace]
+members = [
+    "example_crate"
+]
