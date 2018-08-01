@@ -9,5 +9,5 @@ fn main() {
 
     let random_int: u8 = random();
 
-    println!("{}", random_int)
+    println!("{} from rand crate", random_int)
 }
